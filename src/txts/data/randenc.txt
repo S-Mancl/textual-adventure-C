@@ -1,0 +1,68 @@
+0
+0
+Un goblin si trova sulla strada. Solleva il suo cappello per salutarti.
+1
+Un carro, carico di mercanzia ti passa vicino. Decisamente troppo vicino.
+2
+Due luminari della magia ti passano di fianco. Non ti degnano di uno sguardo
+3
+Un elfo, in alta uniforme, discorre diplomaticamente con un sasso
+4
+Vedi due umani scambiarsi dei soldi. Subito dopo, uno dei due fornisce un tomo dall'aspetto oscuro all'altro
+5
+Una processione ti taglia la strada. Le processioni tagliano sempre la strada. Deve essere nella loro natura
+6
+Un gruppo di guardie sta perquisendo un povero malcapitato
+7
+Un oratore sta tenendo un comizio. Nessuno lo ascolta
+1
+0
+Un troll si trova sulla strada. Solleva il suo berretto di lana per salutarti.
+1
+Un carro, carico di mercanzia ti passa vicino. Si rompe una ruota, e il carico rotola giu' per il versante
+2
+Uno stregone compare. Guarda un piccolo oggetto magico. Scompare. Evidentemente non voleva arrivare qui
+3
+Due umani in armatura pattugliano la strada
+4
+Vedi un gruppo di orchi discutere animatamente. Pare che gli sia stato rubato un anello
+5
+Delle grosse aquile, in cielo, cercano una preda. Speriamo che non gli piacciano troppo gli umani
+6
+Un demone ferma un passante. Gli chiede informazioni per raggiungere "il posto dove fa caldo". L'altro gli indica la strada per le terme
+7
+Un nano inventore sta sperimentando una cosa assolutamente nuova. Ha deciso che se riesce ad arrivare infondo alla strada senza schiantarsi la chiamera' "bici"
+2
+0
+Uno gnomo sta parlando con una cavalletta
+1
+Un carro pieno di ortaggi ti passa accanto
+2
+Un erborista sta cercando delle erbe per qualche suo intruglio
+3
+Due umani con dei bastoni pattugliano la strada
+4
+Delle persone si scambiano prodotti agricoli. Nessuno dei due rilascia uno scontrino. Questi evadono le tasse
+5
+Un gatto ti taglia la strada. Il fatto che sia bianco conta qualcosa?
+6
+Un coniglio scappa, inseguito da un gatto
+7
+Una carrozza si dirige a tutta velocità verso la citta'
+3
+0
+Uno yeti, a bordo del tuo percorso, sta tremando di freddo
+1
+Degli oggetti ti scivolano di fianco. Subito dopo, uno gnomo li segue. Non farti troppe domande
+2
+Intravedi un drago bianco in lontananza
+3.
+Non so se lo sai, ma nevica
+4
+Due creature fatte di ghiaccio si scambiano dei cristalli
+5
+Una scritta e' intagliata su una lastra di ghiaccio. E' in una lingua che non capisci
+6
+Hai catturato una cosa che sembrava commestibile di cui nutrirti. Scopri che e' solo un ammasso di pelo animato magicamente
+7
+Un gigante di ghiaccio ti taglia la strada

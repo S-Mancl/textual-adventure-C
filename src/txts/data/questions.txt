@@ -1,0 +1,54 @@
+0 1
+ questo mondo si espande?
+Si', certo, e' ovvio. Pero' piu' si espande e meno funziona coerentemente
+Ogni tanto, quando il narratore ha voglia. Questo genera degli insetti ogni tanto
+Dipende da quello che faccio. Se lo distruggo non piu'
+Si rimpicciolisce in realta'
+1 0
+ a volte trovare degli insetti (chiamati anche "bug") aiuta tantissimo
+Si', certo, e' ovvio. Pero' rischi anche di sfondare tutto 
+Si' ma niente funziona male come viaggiare nella memoria non inizializzata 
+Non proprio... mi fanno un po' schifo in realta' 
+Ma se rischiano di mangiarti! 
+2 3
+ e' sicuro viaggiare nella memoria non inizializzata?
+Si', certo, e' ovvio. Basta avere sempre presente come ci si e' arrivati
+Non proprio... dipende. Diciamo che se stai usando una interfaccia con una mela PARTICOLARMENTE NO.
+Certo, ma e' abitata da strane creature dette "i bug"
+No. Lo spaziotempo viene a mancare e la perdita di coerenza puo' portare a perdite... significative
+3 0
+ quale famiglia di maghi possedeva il palazzo nella citta' vicino all'accademia?
+X. de C.
+C. de X.
+P. de X.
+X. de O.
+4 2
+quanti incantesimi esistono nel mondo?
+quarantadue
+quattordici
+quindici
+tredici
+5 0
+ questo mondo e' sferico?
+Ma che ne so
+Per me e' un parallelogramma
+Secondo me si'
+Io penso che sia un ovoide in realta'
+6 2
+ il mondo inizializzato nuota in un mare di posti che non lo sono?
+Falso
+Se fosse vero, allora sarebbe falso, quindi mi sono perso nei miei pensieri. Forse che non fossero inizializzati?
+Vero
+Secondo me sono zone non inizializzate che galleggiano in quello inizializzato
+7 2
+ quale tra questi oggetti non esiste?
+Scala
+Ascia
+Bacchetta magica
+Mappa
+8 3
+ quale tra questi incantesimi non esiste?
+Evoca demone minore
+Iceknife
+Missile magico/Dardo incantato
+Palla di fuoco

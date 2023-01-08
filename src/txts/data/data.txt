@@ -1,0 +1,1365 @@
+0
+Stanza di S.
+Ti trovi dove sei cresciuto. Un bel posto, niente di particolare da dire. Ah forse un fatto interessante: si tratta di una accademia di magia. In particolare sei nella tua stanza 
+0 0 0 1
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Ti dirigi verso ovest, imboccando la porta della stanza.
+Non puoi andare in quella direzione
+Non puoi andare in quella direzione
+Non puoi andare in quella direzione
+C'e'una porta di legno, comune, niente di particolare, che pero' conduce fuori dalla tua stanza
+1 0
+0
+Beh, e' chiaro che questa stanza ha visto giorni migliori. Tipo prima dell'incendio che ha distrutto tutto. Capita, soprattutto in una accademia di magia 
+La stanza e' completamente gelata.  Il ghiaccio ricopre la piccola finestrella che apre sul corridoio,  il letto e' rigido, diresti marmoreo. L'intera stanza trasuda freddo. brrrrr 
+La stanza potrebbe apparire una normale stanza disordinata da studente di magia, non fosse che solitamente non ci sono tagli sulle pareti e oggetti alla rinfusa. Ah no, hai ragione, i secondi ci sono 
+Uno spellbook giace su un comodino 
+0 0 3 0
+1
+Corridoio ovest 
+Il corridoio che hai visto tante volte ti si apre davanti. E' un corridoio, nemmeno io ti saprei descrivere troppe cose. Serve solo per collegare posti, non rompere 
+2 3 0 4
+Vai in biblioteca
+Vai in aula
+Entri nella tua stanza
+Vai nel parco intorno all'accademia, uscendo dall'ingresso secondario.Stai ben attento ai gradini. Mind the gradini. Non e' questo che dicono?
+A Nord c'e' la porta della biblioteca
+A Sud c'e' la porta dell'aula dove facevi lezione
+A Est c'e' al porta della tua stanza
+A Ovest c'e' l'ingresso secondario dell'accademia, che si apre sul parco che la circonda
+0 -1
+0
+Non e' normale il colore dei muri, ti sembrano un po' bruciati
+brrr che freddo dai muri
+I muri sono piuttosto devastati, non sai se perche' e' successo qualcosa o per normale usura
+> Non ci sono oggetti con questo ID
+0 0 0 0
+2
+Biblioteca dell'accademia
+Un luogo pieno di libri e di scritte arcane
+4 1 5 2 Dalla biblioteca vai nel parco intorno all'accademia
+Dalla biblioteca vai nel corridoio ovest
+Dalla biblioteca ti sposti nell'archivio
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Di qui si va per il parco
+Di qui si va per il corridoio ovest
+Di qui si va per l'archivio
+Di qui si va contro al muro
+0 0
+0
+La biblioteca e' bruciata. Per fortuna che i libri sono protetti dalla magia perche' il resto e' completamente andato 
+La fredda sensazione della conoscenza ti accoglie. Forse un po' troppo fredda Ok, qui qualcuno ci ha fatto qualcosa 
+Che disordine! Chiamate qualcuno per riordinare! Gli scaffali sono a terra, in mille pezzi, i libri sparsi per la stanza Per fortuna che sono protetti dalla magia... 
+NOPE
+1 0 2 0
+3
+Aula delle lezioni 
+L'aula dove facevi lezione. Tanti banchi, poco divertimento Hai sempre apprezzato di piu' lo studio (e la sperimentazione arcana of course) autonomi 
+1 3 6 3 La porta per andare nel corridoio ovest
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+La porta per andare nel corridoio est
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Vai al corridoio ovest
+Non puoi andare in quella direzione
+Vai al corridoio est
+Non puoi andare in quella direzione
+1 8
+0
+L'aula e' bruciata. Le sedie saranno da cambiare. Alcune cose, come le lavagne, sono rimaste intatte 
+L'aula e' congelata. Vabbe', niente di strano, infondo le sovvenzioni sono pubbliche 
+I banchi sono sradicati, tipo dopo un esame hai presente? I momenti di disperazione capitano anche ai migliori 
+Una piccola scaletta, di quelle usate dai professori per scrivere sulle lavagne in alto, si trova proprio davanti a te 
+0 0 1 0
+4
+Parco dell'accademia (noto anche come Parco Xalgygs)
+Un parco dall'aspetto molto accogliente, e' intitolato a un grande mago del passato Non segue propriamente le leggi dello spaziotempo giuste giuste Si puo' immaginare che sia circa un anello intorno all'accademia
+6 2 1 7
+Dal parco entri nel corridoio est
+Dal parco entri in biblioteca, e non odi piu' il cosi' dolce suono degli uccellini, ma solo il frusciare di pagine
+Dal parco entri nel corridoio ovest
+WOW. Esci dalla accademia. Ma lo sapevi che c'era un mondo fuori? Vai sulla strada. Occhio ai carri.
+Entra nel corridoio est, ti aspettano... niente, e' un corridoio
+Entra nella biblioteca, c'e' tanto da imparare
+Entra nel corridoio ovest, e' come il corridoio est ma a ovest! WOW!
+Un cancello pesante conduce fuori dall'Accademia, nel vasto mondo
+0 0
+0
+Nooooooo i fiori bruciati. Il giardiniere non sara' contento
+Nooooo i fiori congelati. Pare quasi di essere al polo nord
+Le piante sono sradicate. Qualcuno qua ha fatto danni!
+NOPE
+0 0 4 0
+5
+L'archivio dell'accademia
+Il posto dove sono tenuti tutti i documenti degli studenti ed ex studenti
+5 6 5 2
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Dall'archivio ti sposti nel corridoi est Ti lasci il frusciare di vecchi fascicoli alle spalle
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Vai in biblioteca, avvicinandoti agli scaffali - e al rumore di fogli fruscianti
+Non puoi andare in quella direzione
+La porta del corridoio est
+Non puoi andare in quella direzione
+Le porte scorrevoli della biblioteca
+0 0
+0
+L'archivio e' in fiamme Pensate a quanta gente non ricevera' il diploma
+L'archivio e' congelato Immaginate i tempi della burocrazia, che gia' di solito...
+L'archivio e' devastato Che disordine! E' tutto spaccato
+NOPE
+0 0 0 0
+6
+Il corridoio est
+E' uguale al corridoio ovest, pero' e' a est
+5 4 6 3
+Dal corridoio est vai nell'archivio. Odi il suono di fruscianti fogli
+Dal corridoio est ti sposti nel parco. Ti accoglie il cinguettare degli uccellini
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Dal corridoio est ti sposti nell'aula
+Se vai di qua vai nell'archivio
+Se vai di qua vai nel parco
+Non puoi andare in quella direzione
+Se vai di qua vai all'aula
+0 0
+0
+Il solito corridoio, bruciato
+Il solito corridoio, ghiacciato
+Il solito corridoio, devastato
+NOPE
+0 0 0 0
+7
+Viale accademia
+La strada che connette l'accademia al borgo piu' vicino
+8 7 4 7
+Entri dalla porta sud della citta'
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Entri nell'accademia, in particolare sei nel parco
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Se vai di qui vai alla porta sud della citta'
+Non puoi andare in quella direzione
+Se vai di qui entri nel parco dell'accademia
+Non puoi andare in quella direzione
+0 0
+0
+La strada presenta tracce di bruciature
+La strada e' scivolosa, piena di lastre di ghiaccio
+La strada presenta grandi tagli sul selciato, e lastre di pietra divelte
+NOPE
+0 0 1 1
+8
+La porta sud della citta'
+Ti trovi sotto al grande arco che costituisce l'ingresso sud alla citta' E' l'unica strada che connette all'accademia
+12 7 9 8
+Ti sposti verso la piazza del castello
+Vai verso la strada
+Entri nella caserma
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Di qua si va per la piazza del castello
+Di qui si va per la strada che collega con l'accademia
+Di qua si va per la caserma
+Non puoi andare in quella direzione
+1 1
+0
+La porta sud e' bruciata. I muri sono anneriti
+La porta sud e' ghiacciata. I muri sono ricoperti di brina
+La porta sud e' devastata. I muri sono a pezzi
+Un pugnale, abbandonato, giace sul lastricato
+0 0 2 2
+9
+La caserma della citta'
+La caserma e' un edificio basso e tozzo, poco significativo Un tempo vi risiedevano le forse d'elite che proteggevano la citta'
+11 8 10 9 Ti sposti verso la porta nord
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Ti sposti verso la porta est
+Ti sposti verso la porta sud
+Per di qua per la porta nord
+Per di qua per la porta sud
+Per di la' per la porta est
+Non puoi andare in quella direzione
+2 4
+0
+La caserma e' bruciata, e continua a fumare
+La caserma e' ghiacciata. Quanto vorrei una tazza di te caldo
+La caserma e' devastata. La mobilia e' a pezzi, i muri presentano degli orrendi graffi
+Una lancia dall'aspetto mistico e' appesa a dei supporti sul soffitto
+0 0 0 0
+10
+La porta est della citta'
+Una porta che svolge molto degnamente il suo ruolo da porta Sapete, esiste un mondo fuori dalla citta'
+13 10 15 9
+Ti dirigi verso via C.
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Ti avvii verso la tangenziale nord-est della cittadina
+Ti sposti verso la caserma
+Di qui per via C.
+Non puoi andare in quella direzione
+Di qui per la tangenziale esterna nord-est della citta'
+Di qui per la caserma
+0 0
+0
+La porta est e' bruciata
+La porta est e' ghiacciata
+La porta est e' distrutta
+NOPE
+0 0 1 2
+11
+La porta nord della citta'
+Come le altre porte, pero' a nord
+15 9 13 12
+Ti sposti dalla porta nord verso la tangenziale nord-est
+Ti sposti dalla porta nord verso la caserma
+Ti sposti dalla porta nord verso via C.
+Ti sposti dalla porta nord verso la piazza del castello
+Vai di qua per raggiungere la tangenziale
+Vai di qua per raggiungere la caserma
+Vai di qua per raggiungere via C.
+Vai di qua per raggiungere la piazza del castello
+0 0
+0
+La porta nord e' bruciata
+La porta nord e' ghiacciata
+La porta nord e' distrutta
+NOPE
+0 0 1 2
+12
+La piazza del castello
+Da questa piazza vedi il castello Puoi supporre sia per questo che era stata chiamata "Piazza Castello"
+12 8 11 12
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Ti dirigi verso la porta sud
+Ti dirigi verso la porta nord
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Non puoi andare in quella direzione
+Di qua si va per la porta sud
+Di qua si va per la porta nord
+Non puoi andare in quella direzione
+0 0
+0
+La piazza del castello appare bruciata. Da un carro si leva un forte odore di patate arrosto
+Nella piazza del castello c'e' una tormenta Oppure qualcuno sta giocando tanto con delle palle di neve
+La piazza del castello e' devastata Ci sono, sparse, delle patate
+NOPE
+0 0 1 1
+13
+Via C
+Una via che si dice sia stata nominata sulla base di un linguaggio per creare magia Su questa via si affaccia un importante palazzo
+13 10 14 11
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Ti dirigi verso la porta est
+Entri nel Palazzo X. de C.
+Ti dirigi verso la porta nord
+Non puoi andare in quella direzione
+Di qua per la porta est
+Di qua per l'ingresso del palazzo X. de C.
+Di qua per la porta nord
+0 0
+0
+La strada presenta tracce di bruciature
+La strada e' scivolosa, piena di lastre di ghiaccio
+La strada presenta grandi tagli sul selciato, e lastre di pietra divelte
+NOPE
+0 0 0 1
+14
+Palazzo X. de C.
+Palazzo un tempo abitato dalla potente famiglia X. de C., i fondatori dell'accademia L'aria stessa odora di magia e potere arcano Si dice che essi fossero i migliori elementalisti
+14 14 14 13
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Esci, tornando nella via
+Non puoi andare in quella direzione
+Non puoi andare in quella direzione
+Non puoi andare in quella direzione
+Torna nella via
+0 0
+0
+Il palazzo e' bruciato. I soprammobili sono in condizioni pietose
+Non salirei per lo scalone ora Il palazzo e' completamente ghiacciato
+Diciamo che e' tutto un po' a pezzi
+NOPE
+1 6 23 0
+15
+La tangenziale nord-est
+La tangenziale, luogo temibile, popolato da strane creature, e che collega con il mondo lontano
+16 11 38 10
+Ti dirigi verso la collina della citta'
+Ti sposti verso la porta nord
+Ti sposti verso il primo settore della strada della pianura
+Ti sposti verso la porta est
+Di qua per la collina della citta'
+Di qua per la porta nord
+Di qua per il primo settore della strada della pianura
+Di qua per la porta est
+0 0
+0
+La tangenziale e' bruciata
+La tangenziale e' congelata
+La tangenziale e' devastata
+NOPE
+0 0 0 2
+16
+La collina della citta'
+La collina della citta'. E' il punto di accesso alle montagne se si proviene dalla tangenziale nord-est
+16 15 16 17 Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Ti dirigi a sud, verso la tangenziale nord-est della citta'
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Ti dirigi a ovest, verso la cosiddetta collina piccola
+Non puoi andare in quella direzione
+Di qui si va per la tangenziale
+Non puoi andare in quella direzione
+Di qui si va per la collina piccola
+0 0
+0
+Hai bruciato la strada sotto alla collina Niente di che
+Hai congelato la strada sotto alla collina Niente di che
+Hai devastato la strada sotto alla collina Niente di che
+NOPE
+0 0 0 0
+17
+La collina piccola
+Una collina piccola, posizionata tra la "Collina della citta'" e la "Collina grande"
+19 17 16 18
+Ti dirigi a nord, verso la strada che si inerpica per le montagne
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Ti dirigi a est, verso la collina della citta'
+Ti dirigi a ovest, verso la collina grande
+Di qui si va per la strada che conduce su per i monti
+Non puoi andare in quella direzione
+Di qui per la collina della citta'
+Di qui si va per la collina grande. Voglia di scalare?
+0 0
+0
+Hai bruciato il posto dove eri. Ti senti giudicato dalle montagne
+Hai congelato il posto dove eri. Ti senti giudicato dalle colline
+Hai devastato il posto dove eri. Ti senti giudicato dalla strada
+NOPE
+0 0 0 0
+18
+La collina grande
+Una collina grande, posizionata dopo la collina della citta' e quella piccola
+20 18 17 18
+Ti dirigi verso la strada montana, in particolare la seconda parte
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Effettivamente la strada e' in discesa Ti sposti verso la collina piccola
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Di qua per la strada che si inerpica per le montagne
+Non puoi andare in quella direzione
+Di qua per la collina piccola
+Non puoi andare in quella direzione
+0 0
+0
+Hai bruciato il posto dove eri. Ti senti giudicato dalle montagne
+Hai congelato il posto dove eri. Ti senti giudicato dalle colline
+Hai devastato il posto dove eri. Ti senti giudicato dalla strada
+NOPE
+0 0 0 0
+19
+Primo settore della strada per i monti
+La strada che porta su per i monti, uguale in tutte le sue parti.
+19 17 19 20
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Ti dirigi verso la collina piccola
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Segui la strada, passando dal primo al secondo settore
+Non puoi andare in quella direzione
+Se vai di qua vai alla collina piccola
+Non puoi andare in quella direzione
+Se vai di qua passi al secondo settore della strada per i monti
+0 0
+0
+Questo settore di strada e' bruciato. Non diventa certo piu' agevole
+Questo settore di strada e' ghiacciato. Non diventa certo piu' agevole
+Questo settore di strada e' devastato. Non diventa certo piu' agevole
+NOPE
+0 0 1 1
+20
+Secondo settore della strada per i monti
+La strada che porta su per i monti, uguale in tutte le sue parti.
+22 18 19 21
+Ti dirigi verso il terzo settore della strada per i monti
+Ti dirigi verso la collina grande
+Ti dirigi verso il primo settore della strada per i monti
+Ti dirigi verso i monti occidentali
+Di qua per il terzo settore della strada tra i monti
+Di qua per la collina grande
+Di qua per il primo settore della strada tra i monti
+Di qua verso i monti occidentali
+0 0
+0
+Questo settore di strada e' bruciato. Non diventa certo piu' agevole
+Questo settore di strada e' ghiacciato. Non diventa certo piu' agevole
+Questo settore di strada e' devastato. Non diventa certo piu' agevole
+NOPE
+0 0 0 1
+21
+I monti occidentali
+Ti trovi sui monti occidentali. Da qui distingui chiaramente l'ampia valle ghiacciata situata a ovest
+21 21 20 21
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+TI sposti verso il secondo settore della strada tra i monti
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Non puoi andare in quella direzione
+Non puoi andare in quella direzione
+Di qua per il secondo settore della strada tra i monti
+Non puoi andare in quella direzione
+0 0
+0
+Hai sfregiato il sentiero con il fuoco
+Hai gelato un pezzo di sentiero
+Hai fatto un buco. Lo salti. Fine del buco
+NOPE
+0 0 0 0
+22
+Terzo settore della strada per i monti
+La strada che porta su per i monti, uguale in tutte le sue parti.
+23 20 25 22
+Ti sposti verso quella che e' conosciuta come l'Arcana Catena
+Ti sposti verso sud, lungo il tratto precedente del percorso tra i monti
+Ti sposti verso est, lungo il tratto successivo del percorso tra i monti
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Se vai in questa direzione vai verso la cosiddetta "Catena Arcana"
+Di qua per il secondo settore della strada tra i monti
+Di qua per il quarto settore della strada tra i monti
+Non puoi andare in quella direzione
+0 0
+0
+Questo settore di strada e' bruciato. Non diventa certo piu' agevole
+Questo settore di strada e' ghiacciato. Non diventa certo piu' agevole
+Questo settore di strada e' devastato. Non diventa certo piu' agevole
+NOPE
+0 0 0 1
+23
+L'Arcana Catena
+Un luogo di magia, avvolto da un'aura di mistero. Si dice che in questo luogo siano sorti e caduti imperi magici, nel lontano passato In lontananza scorgi una torre diroccata, oscura
+24 22 23 23
+Ti dirigi verso la torre che avevi intravisto
+Torni verso la strada Forse e' meglio cosi'
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Prosegui in questa direzione se vuoi raggiungere la torre oscura
+Prosegui in questa direzione se vuoi tornare sulla strada tra i monti
+Non puoi andare in quella direzione
+Non puoi andare in quella direzione
+0 0
+0
+Hai bruciato il sentiero. E ora? Ti senti potente?
+Hai gelato il sentiero. E ora? Ti senti potente?
+Hai devastato il sentiero. E ora? Ti senti potente?
+NOPE
+1 5 9 0
+24
+L'oscura torre
+Perennemente avvolta da una tempesta di neve, questa era la torre di un potentissimo arcanista Avendo sottovalutato i suoi poteri, egli ha congelato la valle ad ovest Questa valle ora e' solamente raggiungibile dall'impervio sentiero che passa per i monti occidentali
+24 23 24 24
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+TI dirigi verso l'Arcana Catena
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Non puoi andare in quella direzione
+Di qua per l'Arcana Catena. E' l'unica direzione consentita
+Non puoi andare in quella direzione
+Non puoi andare in quella direzione
+0 0
+0
+Si sono accesi tutti i bracieri
+Sembra che la tempesta si sia introdotta anche all'interno
+Non ti sembra si siano aggiunti danni a quelli gia' effettuati dagli anni e dalle intemperie
+NOPE
+1 1 28 0
+25
+Quarto settore della strada per i monti
+La strada che porta su per i monti, uguale in tutte le sue parti.
+26 25 27 22
+Ti dirigi verso la piccola valle
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Ti dirigi verso il quinto tratto di strada
+Ti dirigi verso il terzo tratto di strada
+Di qua si va per la piccola valle
+Non puoi andare in quella direzione
+Di qua si va per il quinto tratto della via dei monti
+Di qua si va per il terzo tratto della via dei monti
+0 0
+0
+Questo settore di strada e' bruciato. Non diventa certo piu' agevole
+Questo settore di strada e' ghiacciato. Non diventa certo piu' agevole
+Questo settore di strada e' devastato. Non diventa certo piu' agevole
+NOPE
+0 0 0 1
+26
+La piccola valle
+La prima di due valli gemelle, e' la piu' piccola. Si dice che qui fossero bravi nella realizzazione di scudi
+26 25 26 26
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Torni sulla via principale
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Non puoi andare in quella direzione
+Di qua torni sulla via principale
+Non puoi andare in quella direzione
+Non puoi andare in quella direzione
+1 5
+0
+Sta bruciando tutto intorno a te pero' onestamente fa talmente freddo qua ad alta quota che ci voleva
+Non fa piu' freddo del solito dai
+Disordine? Devastazione? Desolazione? Che vuoi che sia rispetto a una valle abbandonata da tempi immemori
+Uno scudo giace abbandonato su una sedia in mezzo al nulla
+0 0 0 0
+27
+Quinto settore della strada tra i monti
+La strada che porta su per i monti, uguale in tutte le sue parti.
+28 29 31 25
+Ti sposti verso la grande valle
+Ti dirigi al sesto settore dela strada tra i monti
+Ti dirigi verso l'antico vulcano spento
+Ti dirigi verso il quarto settore della strada tra i monti
+Di qua per scendere nella grande valle
+Di qua per il sesto settore della strada tra i monti
+Di qua per l'antico vulcano spento
+Di qua per il quarto settore della strada tra i monti
+0 0
+0
+Questo settore di strada e' bruciato. Non diventa certo piu' agevole
+Questo settore di strada e' ghiacciato. Non diventa certo piu' agevole
+Questo settore di strada e' devastato. Non diventa certo piu' agevole
+NOPE
+0 0 0 1
+28
+La grande valle
+Una grande valle, situata al di la' dei monti Assomiglia molto alla piccola valle che si trova di poco piu' a ovest
+28 27 28 28
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Ritorni verso la strada
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Non puoi andare in quella direzione
+Di qua puoi tornare verso la strada
+Non puoi andare in quella direzione
+Non puoi andare in quella direzione
+0 0
+0
+Hai bruciato il fondo del sentiero. Applausi
+Il fondo e' congelato? davvero? non avevo notato differenze rispetto al solito
+Hai fatto disordine? Scusa, la neve ricopre tutto, come faccio ad accorgermene?
+NOPE
+0 0 8 0
+29
+Sesto settore della strada tra i monti
+La strada che porta su per i monti, uguale in tutte le sue parti.
+27 29 30 29
+Ti sposti verso il quinto settore della strada tra i monti
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Ti sposti verso il settimo settore della strada tra i monti
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Di qua per il quinto settore della strada tra i monti
+Non puoi andare in quella direzione
+Di qua per il settimo settore della strada tra i monti
+Non puoi andare in quella direzione
+0 0
+0
+Questo settore di strada e' bruciato. Non diventa certo piu' agevole
+Questo settore di strada e' ghiacciato. Non diventa certo piu' agevole
+Questo settore di strada e' devastato. Non diventa certo piu' agevole
+NOPE
+0 0 0 1
+30
+Settimo settore della strada tra i monti
+La strada che porta su per i monti, uguale in tutte le sue parti.
+31 33 30 29
+Ti dirigi verso l'antico vulcano spento
+Ti sposti verso l'ottavo settore della strada tra i monti. Finalmente la strada inizia a scendere
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Ti sposti andando verso il sesto settore della strada tra i monti
+Di qua per l'antico vulcano spento
+Di qua per l'ottavo settore della strada tra i monti
+Non puoi andare in quella direzione
+Di qua per il sesto settore della strada tra i monti
+0 0
+0
+Questo settore di strada e' bruciato. Non diventa certo piu' agevole
+Questo settore di strada e' ghiacciato. Non diventa certo piu' agevole
+Questo settore di strada e' devastato. Non diventa certo piu' agevole
+NOPE
+0 0 0 1
+31
+Antico vulcano spento
+Un tempo luogo popolato dai demoni Ora fa decisamente troppo freddo anche per loro Senti comunque qualcosa di sinistro nell'aria
+32 30 31 27
+Ti dirigi verso l'altro vulcano della zona
+Ti dirigi verso il quarto settore della strada per i monti
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Ti dirigi verso il quinto settore della strada per i monti
+Di qua per il vulcano piu' recente, antico ma non troppo, ancora attivo
+Di qua per il settimo settore della strada tra i monti
+Non puoi andare in quella direzione
+Di qua per il quinti settore della strada tra i monti
+0 0
+0
+Ma te sei fuori? Vuoi riaccendere il vulcano? Ti ricordo che siamo in un mondo fantasy Non rischiare che succedano cose...
+Tanto piu' spento di cosi' non potrebbe essere
+Hai rotto dei sassi. E ora?
+NOPE
+1 4 7 0
+32
+Il vulcano ancora attivo
+Per quanto antico, questo vulcano e' ancora in attivita'
+32 31 32 32
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Ti dirigi verso il vecchio vulcano, quello spento
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Non puoi andare in quella direzione
+Di qua per il vecchio vulcano spento
+Non puoi andare in quella direzione
+Non puoi andare in quella direzione
+0 0
+0
+Wow! Si potrebbe quasi pensare che tutta quella lava e' tua Pero' non lo e'
+Stai cercando di raffreddare un vulcano attivo?
+Qualche fessura in piu' da cui uscira' la lava
+NOPE
+0 0 14 0
+33
+Ottavo settore della strada tra i monti
+La strada che porta su per i monti, uguale in tutte le sue parti.
+30 33 33 33
+Ti sposti verso il settimo settore della strada tra i monti
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Di qua per il settimo settore della strada tra i monti
+Non puoi andare in quella direzione
+Non puoi andare in quella direzione
+Non puoi andare in quella direzione
+0 0
+0
+Questo settore di strada e' bruciato. Non diventa certo piu' agevole
+Questo settore di strada e' ghiacciato. Non diventa certo piu' agevole
+Questo settore di strada e' devastato. Non diventa certo piu' agevole
+NOPE
+0 0 0 1
+34
+Nono settore della strada per i monti
+La strada che porta su per i monti, uguale in tutte le sue parti.
+34 35 34 33
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Ti dirigi verso il decimo settore della strada tra i monti. Oramai sei quasi in piano
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Ti dirigi verso l'ottavo settore della strada tra i monti. Inizi a fare fatica
+Non puoi andare in quella direzione
+Di qua per il decimo settore della strada tra i monti
+Non puoi andare in quella direzione
+Di qua per l'ottavo settore della strada tra i monti
+0 0
+0
+Questo settore di strada e' bruciato. Non diventa certo piu' agevole
+Questo settore di strada e' ghiacciato. Non diventa certo piu' agevole
+Questo settore di strada e' devastato. Non diventa certo piu' agevole
+NOPE
+0 0 1 1
+35
+Decimo settore della strada per i monti
+La strada che porta su per i monti, uguale in tutte le sue parti.
+34 36 35 35
+Ti dirigi verso il nono settore della strada tra i monti. Per ora e' una passeggiata leggera
+Ti dirigi verso il terzo settore della strada che percorre la pianura
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Di qua per il nono settore della strada tra i monti
+DI qua per il terzo settore della strada che percorre la pianura
+Non puoi andare in quella direzione
+Non puoi andare in quella direzione
+0 0
+0
+Questo settore di strada e' bruciato. Non diventa certo piu' agevole
+Questo settore di strada e' ghiacciato. Non diventa certo piu' agevole
+Questo settore di strada e' devastato. Non diventa certo piu' agevole
+NOPE
+0 0 0 1
+36
+Il terzo settore della strada in pianura
+La strada che percorre la pianura, uguale in tutti i suoi settori In lontananza scorgi le montagne, intorno a te invece solo campi
+35 37 39 36
+Ti dirigi verso il decimo settore della strada tra i monti
+Ti dirigi verso il secondo settore della strada in pianura
+TI dirigi verso il quarto settore della strada in pianura
+Non puoi andare in quella direzione
+Di qua per il decimo settore della strada tra i monti
+Di qua per il secondo settore della strada in pianura
+Di qua per il quarto settore della strada in pianura
+Non puoi andare in quella direzione
+0 0
+0
+La strada sterrata presenta delle bruciature
+Le pozzanghere, sulla strada sterrata, sono ghiacciate
+La strada sterrata e' dissestata
+NOPE
+0 0 1 2
+37
+Il secondo settore della strada in pianura
+La strada che percorre la pianura, uguale in tutti i suoi settori In lontananza scorgi le montagne, intorno a te invece solo campi
+36 38 41 37
+Ti sposti verso il primo settore della strada in pianura
+Ti sposti verso il terzo settore della strada in pianura
+Ti sposti verso la fattoria di Eustachio
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Di qua per il terzo settore della strada in pianura
+Di qua per il primo settore della strada in pianura
+Di qua per la fattoria di Eustachio
+Non puoi andare in quella direzione
+0 0
+0
+La strada sterrata presenta delle bruciature
+Le pozzanghere, sulla strada sterrata, sono ghiacciate
+La strada sterrata e' dissestata
+NOPE
+0 0 1 1
+38
+Il primo settore della strada in pianura
+La strada che percorre la pianura, uguale in tutti i suoi settori In lontananza scorgi le montagne, intorno a te invece solo campi
+37 47 44 15
+Ti sposti verso il secondo settore della strada della pianura
+Ti dirigi verso il campo nord della sezione agricola
+Ti dirigi verso i campi di Eustachio
+Ti sposti verso la tangenziale nord-est della citta'
+Di qua per il secondo settore della strada dela pianura
+Di qua per il campo nord della sezione agricola
+Di qua per il campo di Eustachio
+Di qua per la tangenziale nord-est della citta'
+0 0
+0
+La strada sterrata presenta delle bruciature
+Le pozzanghere, sulla strada sterrata, sono ghiacciate
+La strada sterrata e' dissestata
+NOPE
+0 0 1 2
+39
+Il quarto settore della strada in pianura
+La strada che percorre la pianura, uguale in tutti i suoi settori In lontananza scorgi le montagne, intorno a te invece solo campi
+39 42 40 36 Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Ti sposti verso il quinto settore della strada in pianura
+Ti sposti verso il bosco pubblico
+Ti sposti verso il terzo settore della strada in pianura
+Non puoi andare in quella direzione
+Di qua per il quinto settore della strada in pianura
+Di qua per il bosco pubblico
+Di qua per il terzo settore della strada in pianura
+0 0
+0
+La strada sterrata presenta delle bruciature
+Le pozzanghere, sulla strada sterrata, sono ghiacciate
+La strada sterrata e' dissestata
+NOPE
+0 0 0 1
+40
+Bosco pubblico
+Il bosco pubblico Come dice il nome, e' un bosco, ed e' pure pubblico La natura qui cresce rigogliosa
+40 43 40 39
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Ti sposti verso la casa del curatore
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Ti sposti verso il quarto settore della strada della pianura
+Non puoi andare in quella direzione
+Di qua per la casa del curatore
+Non puoi andare in quella direzione
+Di qua per il quarto settore della strada della pianura
+1 2
+0
+Il bosco e' completamente carbonizzato
+Il bosco, congelato, sembra il solito bosco, congelato
+Ci sono tanti rami rotti. O e' passata una tempesta o sei passato tu
+Una ascia giace conficcata in un albero
+0 0 3 0
+41
+La fattoria di Eustachio
+Eustachio e' una celebrita' locale oltre ad essere uno dei piu' grandi latifondisti della zona La sua fattoria si distingue dalle altre: ha un gigantesco cartello con scritto "Eustachio"
+41 44 42 37
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Ti sposti verso i campi di Eustachio
+Ti sposti verso il quinto settore della strada per la pianura
+Ti sposti verso il secondo settore della strada per la pianura
+Non puoi andare in quella direzione
+Di qua per i campi di Eustachio
+Di qua per il quinto settore della strada per la pianura
+Di qua per il secondo settore della strada per la pianura
+0 0
+0
+Hai bruciato la fattoria di Eustachio. Eustachio ti guarda male
+Hai congelato la fattoria di Eustachio. Eustachio ti guarda male
+Hai ghiacciato la fattoria di Eustachio. Eustachio ti guarda male
+NOPE
+0 0 12 0
+42
+Il quinto settore della strada in pianura
+La strada che percorre la pianura, uguale in tutti i suoi settori In lontananza scorgi le montagne, intorno a te invece solo campi
+39 45 43 41
+Ti sposti verso il quarto settore della strada che percorre la pianura
+Ti sposti verso la piazza del quartiere agricolo
+Ti sposti verso la casa del curatore
+Ti sposti verso la fattoria di Eustachio. Contento te
+Di qua per il quarto settore della strada della pianura
+Di qua per la piazza del quartiere agricolo
+Di qua per la casa del curatore
+Di qua per la fattoria di Eustachio
+0 0
+0
+La strada sterrata presenta delle bruciature
+Le pozzanghere, sulla strada sterrata, sono ghiacciate
+La strada sterrata e' dissestata
+NOPE
+0 0 0 1
+43
+Casa del curatore
+La casa del curatore e' uno dei posti piu' importanti per la vita nel borgo
+40 43 43 42
+Dalla casa del curatore ti addentri nel bosco
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Dalla casa del curatore ti avvi lungo la strada
+Di qua per il bosco
+Non puoi andare in quella direzione
+Non puoi andare in quella direzione
+Di qua per il quinto settore della strada della pianura
+0 0
+0
+Qualcuno ha bruciato la casa del curatore
+Fa freddino qui. Servira' per l'anestesia?
+La casa del curatore e' a dir poco a soqquadro
+NOPE
+1 9 3 8
+44
+I campi di Eustachio
+Ti trovi nei campi di Eustachio Lui ti tiene d'occhio in lontananza
+41 44 45 38
+Ti sposti verso la fattoria di Eustachio
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Ti sposti verso la piazza del quartiere agricolo
+Ti sposti verso il primo settore della strada in pianura
+Di qua per la fattoria di Eustachio
+Non puoi andare in quella direzione
+Di qua per la piazza del quartiere agricolo
+Di qua per il primo settore della strada che percorre la pianura
+0 0
+0
+Hai bruciato i campi di Eustachio Eustachio ti guarda male
+Hai congelato i campi di Eustachio Eustachio ti guarda male
+Hai brucdevastato i campi di Eustachio Eustachio ti guarda male
+NOPE
+0 0 2 0
+45
+Piazza del Quartiere Agricolo
+La piazza del quartiere agricolo e' un posto molto trafficato Dappertutto circolano carri pieni di vettovaglie dirette alla citta'
+42 58 46 44
+Ti dirigi verso il quinto settore della strada della pianura
+Ti dirigi verso Via Fattorie
+Ti dirigi verso il palazzo amministrativo, sede degli uffici
+Ti dirigi verso i campi di Eustachio
+Di qua per il quinto settore della strada della pianura
+Di qua per Via Fattorie
+Di qua per il palazzo amministrativo, sede degli uffici
+Di qua per i campi di Eustachio
+0 0
+0
+Hai bruciato numero uno (1) mattonelle
+Hai congelato una pozzanghera
+Hai staccato un sanpietrino
+NOPE
+0 0 3 3
+46
+Il palazzo amministrativo, sede degli uffici
+Il palazzo amministrativo, sede degli uffici, e' sempre gremito di persone C'e' chi sta pagando le tasse, magari riesci ad intascare qualcosa
+46 46 46 45
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Torni nella piazza del quartiere agricolo
+Non puoi andare in quella direzione
+Non puoi andare in quella direzione
+Non puoi andare in quella direzione
+Di qua torni alla piazza del quartiere agricolo
+0 0
+0
+Quante scartoffie inutili bruciate Era ora che qualcuno lo facesse!
+Il gelo della burocrazia attanaglia ogni cosa Il gelo della magia quasi non si nota
+Hai fatto disordine. I fogli sembrano quasi piu' sensati ora
+NOPE
+0 0 12 17
+47
+Campo nord
+Campi di appartenenza al borgo Sono tutti uguali tra di loro
+38 48 47 47
+Ti sposti verso il primo settore della strada della pianura
+Ti sposti verso il campo centrale
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Di qua vai al primo settore della strada della pianura
+Di qua vai al campo centrale
+Non puoi andare in quella direzione
+Non puoi andare in quella direzione
+0 0
+0
+Hai bruciato i campi La verdura costera' di piu', ma intanto non la mangi
+Hai congelato i campi Dai, magari inverti il riscaldamento climatico
+Perche' stai iniziando ad arare fuori stagione?
+NOPE
+0 0 1 1
+48
+Campo centro
+Campi di appartenenza al borgo Sono tutti uguali tra di loro
+47 51 50 49
+Dal campo centrale ti sposti al campo nord
+Dal campo centrale ti sposti al campo sud
+Dal campo centrale ti sposti al campo est
+Dal campo centrale ti sposti al campo ovest
+Di qua per il campo nord
+Di qua per il campo sud
+Di qua per il campo est
+Di qua per il campo ovest
+0 0
+0
+Hai bruciato i campi La verdura costera' di piu', ma intanto non la mangi
+Hai congelato i campi Dai, magari inverti il riscaldamento climatico
+Perche' stai iniziando ad arare fuori stagione?
+NOPE
+0 0 1 1
+49
+Campo ovest
+Campi di appartenenza al borgo Sono tutti uguali tra di loro
+49 49 48 49
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Ti sposti verso il campo centrale
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Non puoi andare in quella direzione
+Non puoi andare in quella direzione
+Di qua per il campo centro
+Non puoi andare in quella direzione
+0 0
+0
+Hai bruciato i campi La verdura costera' di piu', ma intanto non la mangi
+Hai congelato i campi Dai, magari inverti il riscaldamento climatico
+Perche' stai iniziando ad arare fuori stagione?
+NOPE
+0 0 1 1
+50
+Campo est
+Campi di appartenenza al borgo Sono tutti uguali tra di loro
+50 50 50 48
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Ti sposti verso il campo centrale
+Non puoi andare in quella direzione
+Non puoi andare in quella direzione
+Non puoi andare in quella direzione
+Di qua per il campo centro
+0 0
+0
+Hai bruciato i campi La verdura costera' di piu', ma intanto non la mangi
+Hai congelato i campi Dai, magari inverti il riscaldamento climatico
+Perche' stai iniziando ad arare fuori stagione?
+NOPE
+0 0 1 1
+51
+Campo sud
+Campi di appartenenza al borgo Sono tutti uguali tra di loro
+48 52 51 51
+Ti sposti verso il campo centrale
+Ti dirigi verso la Via Campi
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Di qua per il campo centrale
+Di qua per Via Campi
+Non puoi andare in quella direzione
+Non puoi andare in quella direzione
+0 0
+0
+Hai bruciato i campi La verdura costera' di piu', ma intanto non la mangi
+Hai congelato i campi Dai, magari inverti il riscaldamento climatico
+Perche' stai iniziando ad arare fuori stagione?
+NOPE
+0 0 1 1
+52
+Via campi
+La via che collega a sud i campi al quartiere agricolo
+51 52 53 52
+Ti sposti verso il campo sud
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Ti sposti verso via cartografi
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Di qua per il campmo sud
+Non puoi andare in quella direzione
+Di qua verso Via Cartografi
+Non puoi andare in quella direzione
+0 0
+0
+La strada sterrata presenta delle bruciature
+Le pozzanghere, sulla strada sterrata, sono ghiacciate
+La strada sterrata e' dissestata
+NOPE
+0 0 1 1
+53
+Via Cartografi
+La via che, da che mondo e' mondo, ospita i cartografi
+55 53 54 52
+Ti dirigi verso Strada Centrale
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Ti dirigi verso la bottega del cartografo
+Ti dirigi verso Via Campi
+Di qua per la Strada Centrale
+Non puoi andare in quella direzione
+Di qua entri nella bottega del cartografo
+Di qua ti dirigi verso Via Campi
+0 0
+0
+La strada sterrata presenta delle bruciature
+Le pozzanghere, sulla strada sterrata, sono ghiacciate
+La strada sterrata e' dissestata
+NOPE
+0 0 0 1
+54
+La bottega del cartografo
+Uno dei punti di interesse locali In essa si trovano molte mappe di cose strane
+54 54 54 53
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Esci dalla bottega sulla via
+Non puoi andare in quella direzione
+Non puoi andare in quella direzione
+Non puoi andare in quella direzione
+Di qua torni sulla via
+1 7
+0
+Le mappe sono andate in fumo. Letteralmente.
+Allungare la conservazione dei papiri? A che serve se siamo in un freezer?
+Hai fatto disordine Ora le mappe sono disordinate
+Una mappa riproduce esattamente la zona di mondo dove sei
+0 0 2 3
+55
+Strada Centrale
+Una strada estremamente frequentata Si affaccia su Piazza Centrale
+56 53 61 55
+Ti sposti verso Piazza Centrale
+Ti sposti verso Via Cartografi
+Ti sposti verso Via Chiusa
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Di qua per Piazza Centrale
+Di qua per Via Cartografi
+Di qua per Via Chiusa
+Non puoi andare in quella direzione
+0 0
+0
+La strada sterrata presenta delle bruciature
+Le pozzanghere, sulla strada sterrata, sono ghiacciate
+La strada sterrata e' dissestata
+NOPE
+0 0 0 1
+56
+Piazza Centrale
+Piazza Centrale e' la piu' trafficata dell'intero quartiere agricolo
+59 55 57 56 Ti sposti verso Vicolo Cieco
+Ti sposti verso Strada Centrale
+Ti sposti verso Via Residenziale
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Se vai di qua vai al Vicolo Cieco
+Di qua per Via Centrale
+Di qua per Via Residenziale
+Non puoi andare in quella direzione
+0 0
+0
+Hai bruciato numero uno (1) mattonelle
+Hai congelato una pozzanghera
+Hai staccato un sanpietrino
+NOPE
+0 0 1 4
+57
+Via Residenziale
+La via dove abitano quasi tutti, tranne Eustachio
+58 57 57 56
+Ti sposti verso Via Fattorie
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Ti sposti verso Piazza Centrale
+Di qua per Via Fattorie
+Non puoi andare in quella direzione
+Non puoi andare in quella direzione
+Di qua per Piazza Centrale
+0 0
+0
+La strada sterrata presenta delle bruciature
+Le pozzanghere, sulla strada sterrata, sono ghiacciate
+La strada sterrata e' dissestata
+NOPE
+0 0 0 1
+58
+Via Fattorie
+La via che collega il borgo alle fattorie, principalmente Su di essa si affaccia anche una bottega
+45 57 60 58
+Ti sposti verso la Piazza del quartiere agricolo
+Ti sposti verso Via Residenziale
+Entri nella bottega del fabbro
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Di qua per la Piazza del quartiere agricolo
+Di qua per Via Residenziale
+Di qua per entrare nelal bottega del fabbro
+Non puoi andare in quella direzione
+0 0
+0
+La strada sterrata presenta delle bruciature
+Le pozzanghere, sulla strada sterrata, sono ghiacciate
+La strada sterrata e' dissestata
+NOPE
+0 0 1 3
+59
+Vicolo Cieco
+Vicolo Cieco e' un vicolo, chiuso
+59 56 59 59
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Torni in Piazza del quartiere agricolo
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Non puoi andare in quella direzione
+Di qua per la piazza del quartiere agricolo
+Non puoi andare in quella direzione
+Non puoi andare in quella direzione
+0 0
+0
+La strada sterrata presenta delle bruciature
+Le pozzanghere, sulla strada sterrata, sono ghiacciate
+La strada sterrata e' dissestata
+NOPE
+0 0 0 1
+60
+La bottega del fabbro
+Questa e' la bottega del fabbro Incidentalmente, il fabbro e' anche il figlio di Eutachio
+60 60 60 58
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Ti sposti verso Via Fattorie
+Non puoi andare in quella direzione
+Non puoi andare in quella direzione
+Non puoi andare in quella direzione
+Di qua per uscire dalla bottega
+1 6
+0
+E' tutto bruciato. Per fortuna che intanto era tutto metallico
+Hai congelato la bottega del figlio di Eustachio Il figlio di Eustachio ti guarda male
+Hai fatto disordine. Eustachio sgrida il figlio
+Una armatura giace su uno scaffale
+0 0 2 2
+61
+Via Chiusa
+Una via, chiusa
+61 61 61 55
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Non puoi andare in quella direzione, o meglio, potresti, ma sbatti la testa contro il muro.
+Ti sposti verso Strada Centrale
+Non puoi andare in quella direzione
+Non puoi andare in quella direzione
+Non puoi andare in quella direzione
+Di qua per tornare su Strada Centrale
+0 0
+0
+La strada sterrata presenta delle bruciature
+Le pozzanghere, sulla strada sterrata, sono ghiacciate
+La strada sterrata e' dissestata
+NOPE
+0 0 0 1
+0 0
+0 0
+0 0
+0 0
+-1 0
+0 0
+0 0
+1 0
+-1 0
+0 0
+-1 0
+0 0
+-1 0
+0 0
+0 0
+-1 0
+-1 1
+-1 1
+-1 1
+-1 1
+-1 1
+1 1
+-1 1
+-1 3
+1 2
+-1 1
+-1 3
+-1 1
+-1 3
+-1 1
+-1 1
+-1 1
+1 3
+-1 1
+-1 1
+-1 2
+-1 2
+-1 2
+-1 2
+-1 2
+-1 2
+-1 2
+-1 2
+0 1
+-1 2
+-1 2
+0 1
+-1 2
+-1 2
+-1 2
+-1 2
+-1 2
+-1 2
+-1 2
+0 1
+-1 2
+-1 2
+-1 2
+-1 2
+-1 2
+0 1
+-1 2
+Arcanista Lucio
+Un uomo di media statura, dall'aspetto idiota e con poteri magici decisamente sproporzionati rispetto a quanti ne meriterebbe
+1 0
+1 4 2 3 3
+0 0 -5 0 5 3
+Golem gelato
+Un golem fatto di ghiaccio, molto freddo e distaccato
+3 1
+2 5 2 3 5
+5 -5 5 5 0 5
+Arcanista Placido
+Un elfo oscuro particolarmente oscuro. E' molto minaccioso
+1 2
+5 5 3 3 3
+5 0 -5 5 5 5
+Demone Enomed
+Un demone come qualsiasi altro, con qualche fissa lessicale probabilmente dovuta al nome
+2 2
+0 4 3 3 3
+-5 5 5 0 -5 5
+Libro degli incantesimi
+Un tomo polveroso pieno di scritte arcane, che comprenderai man mano che visiterai posti e scoprirai cose
+Leggi intensamente il tuo libro degli incantesimi, pronto a lanciare un incantesimo. Nella prossima azione, anziche' usare questo, scegli direttamente lancia un incantesimo
+Leggi intensamente il tuo libro degli incantesimi, ma non distingui neanche un segno. Probabilmente avresti dovuto imparare a scrivere meglio molto tempo fa
+Pugnale
+Un pugnale per cosa serve? Tagliare le verdure, aprire le lettere, difendersi da danni fisici, fare danni a gente con bassa destrezza... si' insomma hai capito, tante cose
+Il pugnale colpisce, ferendo il nemico
+L'aria, tagliata dal tuo pugnale, fa un suono che ti ricorda quasi un urlo di dolore... pero' stai comunque colpendo il niente
+Una semplice ascia
+Una ascia che fa particolarmente male
+L'ascia distrugge tutto, come ci si aspetterebbe da una ascia del resto
+Che dire, la stanza la distruggi a dovere, eventuali nemici pero' no
+Martello del nord
+Un martello originario delle terre a ovest, esso fa danni da gelo
+Il martello colpisce, gelando tutto
+Il martello colpisce, rimbalza, e nulla e' cambiato
+Lancia della forza
+Una lancia mistica che e' caricata di pura energia magica, e fa danni da forza
+La lancia splende in maniera minacciosa mentre si abbatte su ogni cosa, devastandola
+La lancia splende in maniera minacciosa, ma non hai mira
+Uno scudo
+Uno scudo di ottima fattura
+Interponi lo scudo tra te e qualsiasi altra cosa
+Diciamo che questa non ti e' venuta proprio bene
+Armatura
+Una armatura molto rinforzata
+Nella tua sfavillante armatura ti senti (circa) imbattibile
+Non credo che tu l'abbia indossata giusta sai?
+La mappa del cartografo
+La mappa del cartografo e' una mappa, fatta da un cartografo
+Leggi intensamente la mappa del cartografo
+Ci provi, a leggere la mappa del cartografo, ma non riesci a distinguere i segni
+Scala
+Una scala
+Sali sulla scala, riuscendo ad avvicinare a te oggetti prima distanti
+Cadi dalla scala. Ahia, la schiena
+Dardo di fuoco
+Uno degli incantesimi piu' semplici, lancia un banale dardo fiammeggiante
+Un dardo incendiario si stacca dalla tua mano protesa in avanti. Dai fuoco ad ogni cosa lignea nelle prossimita'
+0
+Ci provi davvero con tutto te stesso... peccato non sia abbastanza. Guarda il bicchiere mezzo pieno: almeno ti sei scaldato le mani
+Ice knife
+Ideale contro creature basate sul fuoco Questo incantesimo crea una scheggia di ghiaccio esplosivo (non chiedete il principio fisico dietro a cio', non lo so
+Evochi e lanci una scheggia di ghiaccio, che si avvicina al tuo bersaglio, pronta a esplodere
+1
+Ci provi davvero con tutto te stesso... generi dei cubetti di ghiaccio. Dai, hai un futuro come barista
+Dardo incantato
+Un tempo un incantesimo ritenuto certo, oggi di meno. Rimane un buon strumento in un qualsiasi arsenale grazie ai danni di pura energia magica
+Delle sfere di pura energia magica si generano nel tuo palmo aperto, venendo scagliate contro i tuoi bersagli
+2
+Questa e' stata una bella scena, e sai che il tuo nome sara' inserito per sempre negli annali. Sei stato in grado di fallire un magic missile!
+Infliggi ferite
+Incantesimo che fa danni di natura necrotica. E' divertente? Bah, a me non piace piu' di tanto, ma si', puoi anche usarlo. Grazie narratore. Prego giocatore.
+La tua mano riluce di una energia malevola, mentre ti prepari a sferrare un attacco devastante
+3
+La mano riluce. No ma davvero riluce. Pero' niente energia malevola. Vabbe' ci riproverai dopo una non meritata tazza di caffe'
+Evoca demone minore
+Un incantesimo molto disapprovato da un tale che conosco, esso fa esattamente quello che dice il suo nome. Pero' il demone non ha voglia e se ne va appena puo'. Nel mentre fa danno
+Come finisci la tua cantilena, un demone appare. Si presenta, saluta tutti, scatena qualche incendio, saluta di nuovo, riparte. E' un demone impegnato lui
+0
+No un attimo... da quando un temibile demone infernale (per quanto minore sia) assomiglia a una pallina da tennis? Okay forse hai sbagliato qualcosa, riprova
+Armatura magica
+Una semplice armatura, ma arcana e risplendente, ed evocata sul momento. Funziona bene contro i danni da forza e fisici
+Mentre termini l'ultimo agile gesto delle tue dita, una lucente armatura, perfettamente adatta a te, si genera, proteggendoti
+4
+Generi una perfetta armatura magica... in miniatura. Hai qualche problema ad indossarla, e quindi annulli l'evocazione. Eh  niente
+Assorbi elementi
+Il danno che avresti subito viene ridotto. Funziona bene con danni da freddo e necrotici
+Inspiri profondamente. Espiri profondamente. Inspiri le nuvole... ah no aspe non era sta cosa. Giusto, giusto. Dicevo, respiri bene, i polmoni ringraziano, e tu subisci meno danni
+4
+Allontani il danno da te, pero' evidentemente non abbastanza. Nessuno e' perfetto
+Scudo
+Davvero non sai cos'e'? Ma dove vivi, in un mondo senza magia? Tutti sanno che shield genera uno scudo magico che ti protegge, e funziona bene contro danni da fuoco e danni fisici
+Una luminosa barriera di forza si frappone tra te e i tuoi nemici, proteggendoti a dovere
+4
+Crei una bellissima barriera luminosa, ma rimane solo luce, non ti protegge. Pero' intanto ti abbronzi, su su, non e' niente di così grave
+Wither and bloom
+Incantesimo che ti cura assorbendo energia dall'ambiente circostante. Mantieni il bilanciamento con l'ambiente, pero' devasti la stanza intorno a te
+Mentre vedi il luogo intorno a te appassire, rovinato dall'energia necrotica, tu assorbi quella curativa
+7
+Perche' il posto non si sta devastando? Mmm... qualcosa non va
+Cura ferite
+Nomen omen, dicevano i latini. No, non fa profezie. No, stop, ascolta un attimo. Cura. Solo questo. Ti cura. O sistema cio' che hai intorno. NIENTE PROFEZIE. NO OMEN. NON LE VOGLIAMO.
+Le tue ferite si curano, mentre una piacevole sensazione di salute ti avvolge. L'intera stanza e' ora meno devastata grazie all'energia curativa che hai rilasciato nell'ambiente
+7
+Le tue ferite si curano, o meglio, no, non lo fanno. Diciamo che si avvicinano un po'. Niente da fare, non stavolta almeno
+Luci danzanti
+Incantesimo molto utile per distrarre gentaglia da brutte intenzioni... se hanno poca volonta'
+Oh che belle lucine... No, un attimo, non devo essere io a distrarmi
+6
+Crei delle lucine, addirittura le disponi a forma di albero, ma nessuno si distrae. E' il momento di incantesimi piu' convinti
+Sonno
+Incantesimo che fa addormentare. Funziona per distrarre gentaglia da brutte intenzioni... se hanno poca costituzione
+Buonanotte, mondo! Tutti dormono
+6
+Che sbadiglio! No un attimo... dovrebbe dormire, non sbadigliare e basta
+Suggestione
+Un incantesimo molto utile per stordire gente con le parole... se hanno poca intelligenza
+Pronunci un discorso perfetto, degno di essere inserito in un manuale di dibattito. Hai guadagnato abbastanza tempo per andartene
+6
+Segui un corso di public speaking, fai prima che a reimpararti questo spell
+Mano del mago
+Un incantesimo semplice e tuttavia molto versatile, esso permette di prendere oggetti che altrimenti sarebbero fuori portata Non male eh?
+Una evanescente mano illusoria segue i movimenti della tua mano reale L'oggetto che era fuori portata ora puo' essere raccolto normalmente
+8
+WOW. Piu' incorporea di cosi' non si poteva. Complimenti. Peccato che non fosse questo lo scopo
+Cerchio di teletrasporto
+Connetti per un istante due localita' del mondo, e sei in grado quindi di teletrasportarti. Devi sapere i codici arcani (numero della localita') del luogo dove vuoi arrivare
+Come finisci di tracciare i simboli arcani con il gesso, esso si smaterializza e, avvolto da una sottile nebbia bianca, lo scenario intorno a te cambia
+5
+A quanto pare non hai tracciato i segni giusti. Ti ritrovi esattamente dove eri fino a un momento fa
