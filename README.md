@@ -14,3 +14,4 @@ There are NPCs, with different alignments, and different interactions based on t
 ## Session achievements
 You can win achievements (specific to the session, not to the entire game) by performing determined actions, or the same actions multiple times.
 ### And probably a lot more I can't remember at the moment :-)  
+[Read my file description for a (WIP, but will be a) complete list of the files in this repo](https://github.com/S-Mancl/textual-adventure-C/main.FILES.md)
