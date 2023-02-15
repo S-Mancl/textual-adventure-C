@@ -19,7 +19,7 @@ Uno spellbook giace su un comodino
 0 0 3 0
 1
 Corridoio ovest 
-Il corridoio che hai visto tante volte ti si apre davanti. E' un corridoio, nemmeno io ti saprei descrivere troppe cose. Serve solo per collegare posti, non rompere 
+Il corridoio che hai visto tante volte ti si apre davanti. E' un corridoio, nemmeno io ti saprei descrivere troppe cose. Serve solo per collegare posti 
 2 3 0 4
 Vai in biblioteca
 Vai in aula
