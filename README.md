@@ -1,5 +1,5 @@
 # Textual Adventure written in C
-This is a (crazy) project I made for my Cybersecurity course Programming Classes.  
+Hello all. This is a project I made for my programming classes at SSRI (computer systems and networks security) at Università Statale degli Studi di Milano, Italy.
 Here are some interesting features:
 ## A complete world to explore - freely
 I always hated the stories which allow you to see a beautiful world behind... and don't let you explore it freely. In this game, you can travel as you want, since no plot is forcing you in a predetermined direction. You choose your own way
