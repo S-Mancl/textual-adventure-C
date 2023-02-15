@@ -11,34 +11,34 @@
 #include "../../../src/headers/headers/interface.h"
 
 
-int rolld(int a){
+int rolld(int a){//function to roll a die with a possible outputs. For exampe, rolld(10) rolls 1d10
     int b=(rand()%a)+1;
     printf("\n[%d]",b);
     return b;
 }
-int get_gold_pieces(int portafogli){
+int get_gold_pieces(int portafogli){//function to compute the number of gold pieces in one's inventory
     int gp=portafogli;
     gp-=(gp%100);
     return gp;
 }
-int get_silver_pieces(int portafogli){
+int get_silver_pieces(int portafogli){//function to compute the number of silver pieces in one's inventory
     int sp=(portafogli);
     sp=sp/10;
     sp=sp%10;
     return sp;
 }
-int get_copper_pieces(int portafogli){
+int get_copper_pieces(int portafogli){//function to compute the number of copper pieces in one's inventory
     int cp=(portafogli%10);
     return cp;
 }
-void print_map( const map * mappa){
+void print_map( const map * mappa){//function to print a list of all the places
     int i;
     for(i=0;i<NPLACE;i++){
         printf("\n>     %d.%s",i,mappa->place[i].nome);
     }
     return;
 }
-int save_to_file(const map * mappa, const inv * invent, const spbook * spb, const int *current, const int *previous,const int *portafogli){
+int save_to_file(const map * mappa, const inv * invent, const spbook * spb, const int *current, const int *previous,const int *portafogli){//function to save the current status in a file
     int i;
     char filename[40];
     char file[70]="src/txts/savefiles/";
@@ -64,7 +64,7 @@ int save_to_file(const map * mappa, const inv * invent, const spbook * spb, cons
     fprintf(stdout,"\nSalvataggio avvenuto correttamente");
     return fclose(savefile);;
 }
-void clean (char * filename){
+void clean (char * filename){//ensures that the name respects the whitelist
     for(int i=0;i<strlen(filename)-1;i++){
         if(filename[i]<97||filename[i]>122) filename[i]='_';
     }
@@ -72,7 +72,7 @@ void clean (char * filename){
     return;
 }
 
-int load_from_file( map * mappa, inv * invent, spbook * spb,int *current,int *previous,int *portafogli){
+int load_from_file( map * mappa, inv * invent, spbook * spb,int *current,int *previous,int *portafogli){//same as save from file, but in the opposite direction
     int i;
     char filename[40];
     char file[70]="src/txts/savefiles/";
@@ -104,7 +104,7 @@ int load_from_file( map * mappa, inv * invent, spbook * spb,int *current,int *pr
     }
     return 0;
 }
-int regen_money(map * mappa){
+int regen_money(map * mappa){//regenerates the random copper pieces that can be found. globally.
     int i;
     for(i=0;i<NPLACE;i++){
         if(mappa->place[i].regen_ratio){
@@ -115,7 +115,7 @@ int regen_money(map * mappa){
     }
     return 0;
 }
-void learn(spel * spell, char * nome, char * descrizione, char * effetto, element  elemento, char * fallimento){
+void learn(spel * spell, char * nome, char * descrizione, char * effetto, element  elemento, char * fallimento){//with this function the game loads a spell
     strcpy(spell->nome,nome);
     strcpy(spell->descrizione,descrizione);
     strcpy(spell->effetto,effetto);
@@ -124,7 +124,7 @@ void learn(spel * spell, char * nome, char * descrizione, char * effetto, elemen
     printf(".");
     return;
 }
-void load(item * oggetto, char * nome, char * descrizione, char * uso, char * fallimento){
+void load(item * oggetto, char * nome, char * descrizione, char * uso, char * fallimento){//with this function the game loads an item
     strcpy(oggetto->nome,nome);
     strcpy(oggetto->descrizione,descrizione);
     strcpy(oggetto->uso,uso);
@@ -132,7 +132,7 @@ void load(item * oggetto, char * nome, char * descrizione, char * uso, char * fa
     printf(".");
     return;
 }
-void createPlace(posto * place, char * nome, char * descrizione, int N, int S, int E, int O, char* desc0, char * desc1, char * desc2, char * desc3, char*move0,char *move1, char*move2, char*move3, int objavail, int objcode){
+void createPlace(posto * place, char * nome, char * descrizione, int N, int S, int E, int O, char* desc0, char * desc1, char * desc2, char * desc3, char*move0,char *move1, char*move2, char*move3, int objavail, int objcode){//with this function the game loads a place
     strcpy(place->nome,nome);
     strcpy(place->descrizione[0],descrizione);
     place->dir[0]=N;
@@ -151,7 +151,7 @@ void createPlace(posto * place, char * nome, char * descrizione, int N, int S, i
     place->availableObjCode=objcode;
     return;
 }
-void altStatus(posto * place, stato current_status, char * firedesc, char * icedesc, char * devdesc,char * availableObjDescr, int spellAvailable, int codeSpell,int money,int regen){
+void altStatus(posto * place, stato current_status, char * firedesc, char * icedesc, char * devdesc,char * availableObjDescr, int spellAvailable, int codeSpell,int money,int regen){//and with this one it completes the place
     strcpy(place->descrizione[1],firedesc);
     strcpy(place->descrizione[2],icedesc);
     strcpy(place->descrizione[3],devdesc);
@@ -164,7 +164,7 @@ void altStatus(posto * place, stato current_status, char * firedesc, char * iced
     printf(".");
     return;
 }
-void print_item_desc(const inv * invent, const int subaction){
+void print_item_desc(const inv * invent, const int subaction){//this way a description of an item is printed
     if(!(invent->oggetto[subaction].available)){
         print_star_Line(100);
         print_star_box(ECHILOSA,100);
@@ -177,7 +177,7 @@ void print_item_desc(const inv * invent, const int subaction){
     }
     return;
 }
-void print_spell_desc(const spbook * spb, const int subaction){
+void print_spell_desc(const spbook * spb, const int subaction){//same as above, but with spells
     if(!(spb->spell[subaction].known)){
         print_star_Line(100);
         print_star_box(ECHILOSA,100);
@@ -190,15 +190,15 @@ void print_spell_desc(const spbook * spb, const int subaction){
     }
     return;
 }
-void print_spell_name(const spbook * spb,const int subaction){
+void print_spell_name(const spbook * spb,const int subaction){//prints the name of a spell
     printf("\n> %d.%s",subaction,spb->spell[subaction].nome);
     return;
 }
-void print_item_name(const inv * invent,const int subaction){
+void print_item_name(const inv * invent,const int subaction){//prints the name of an item
     printf("\n> %d.%s",subaction,invent->oggetto[subaction].nome);
     return;
 }
-void print_inventory(const inv * invent){
+void print_inventory(const inv * invent){//prints the inventory
     int i, status=0;
     printf("\n> Scegli l'item da usare");
     for(i=0;i<NITEM;i++)
@@ -209,7 +209,7 @@ void print_inventory(const inv * invent){
     if(!status) printf("\n> Non hai oggetti nell'inventario");
     return;
 }
-void print_spellbook(const spbook * spb){
+void print_spellbook(const spbook * spb){//prints the contents of the spellbook
     int i, status=0;
     printf("\nScegli l'incantesimo da usare");
     for(i=0;i<NITEM;i++)
@@ -220,14 +220,14 @@ void print_spellbook(const spbook * spb){
     if(!status) printf("\nNon hai incantesimi nello spellbook");
     return;
 }
-void print_possibleMoves(const posto * loc){
+void print_possibleMoves(const posto * loc){//prints the possible directions
     printf("\n  0.Nord. %s",loc->moves_description[0]);
     printf("\n  1.Sud. %s",loc->moves_description[1]);
     printf("\n  2.Est. %s",loc->moves_description[2]);
     printf("\n  3.Ovest. %s",loc->moves_description[3]);
     return;
 }
-int ask_for_object(void){
+int ask_for_object(void){//asks for an object
     int subaction;
     char subazione[100];
     ask("Inserisci il numero o il nome dell'oggetto");
@@ -237,7 +237,7 @@ int ask_for_object(void){
     return subaction;
 }
 
-int ask_for_spell(void){
+int ask_for_spell(void){//asks for a spell
     int subaction;
     char subazione[100];
     ask("Inserisci il numero o il nome dell'incantesimo");
@@ -247,7 +247,7 @@ int ask_for_spell(void){
     return subaction;
 }
 
-int ask_for_dir(void){
+int ask_for_dir(void){//asks for a direction
     int subaction;
     char azione[100];
     ask("Inserisci la direzione in cui vuoi andare");
@@ -257,7 +257,7 @@ int ask_for_dir(void){
     return subaction;
 }
 
-void print_possibleActions(void){
+void print_possibleActions(void){//prints all the possible actions
     printf("\n\n> Ecco alcuni esempi di azioni che puoi fare:");
     printf("\n     1. \tOsserva");
     printf("\n     2. \tUsa [Usa un oggetto]");
@@ -274,7 +274,7 @@ void print_possibleActions(void){
     printf("\n     13.\tImpostazioni");
     return;
 }
-int get_action(void){
+int get_action(void){//gets an action
     int action;
     char azione[100];
     printf("\n\n");
@@ -284,13 +284,13 @@ int get_action(void){
     else action=decode(azione,azione_);
     return action;
 }
-int ask_again(void){
+int ask_again(void){//asks again
     int action;
     printf("\n>Non e' una mossa valida. Inserire nuovamente:");
     action=get_action();
     return action;
 }
-int call_sub_prompt(int *action, map * mappa, inv * invent, spbook * spb, int * current){ //procedure to call sub prompt to get sub action
+int call_sub_prompt(int *action, map * mappa, inv * invent, spbook * spb, int * current){ //function to call sub prompt to get sub action
     int subaction=0;
     switch (*action){
         case 2:
@@ -310,7 +310,7 @@ int call_sub_prompt(int *action, map * mappa, inv * invent, spbook * spb, int * 
     }
     return subaction;
 }
-int check_input(int action, int subaction,map * mappa,inv * invent, spbook * spb,int current){
+int check_input(int action, int subaction,map * mappa,inv * invent, spbook * spb,int current){//checkes if the input is fine
     int fine=1;//everything is fine
     switch(action){
         case 2:
@@ -350,7 +350,7 @@ int check_input(int action, int subaction,map * mappa,inv * invent, spbook * spb
     return fine;
 }
 
-void prompt(int* action, int * subaction, map * mappa, inv * invent, spbook * spb, int * current){
+void prompt(int* action, int * subaction, map * mappa, inv * invent, spbook * spb, int * current){//asks for an action
     int i=0;
     print_possibleActions();
     (*action)=get_action();
@@ -360,7 +360,7 @@ void prompt(int* action, int * subaction, map * mappa, inv * invent, spbook * sp
     *subaction=call_sub_prompt(action, mappa, invent, spb, current);
     return;
 }
-void cast_spell(int action, int subaction, map * mappa, inv * invent, spbook * spb, int * current, int * previous){
+void cast_spell(int action, int subaction, map * mappa, inv * invent, spbook * spb, int * current, int * previous){//executes the "cast a spell" command
     int a;
     int b;
     b=rolld(20);
@@ -436,7 +436,7 @@ void cast_spell(int action, int subaction, map * mappa, inv * invent, spbook * s
         break;
     }
 }
-void use_item(int action, int subaction, map *mappa, inv *invent, spbook * spb, int current, int previous){
+void use_item(int action, int subaction, map *mappa, inv *invent, spbook * spb, int current, int previous){//executes the "use an item" command
     int a,b;
     b=rolld(20);
     switch (subaction)
@@ -767,11 +767,3 @@ void setup(map * mappa, bestiary * bestiario, inv * inventario, spbook * spellbo
     /*setup of inventory and spellbook*/
     setup_item_spells(inventario,spellbook);
 }
-
-/*
-void create_alchemic_component(component * comp,char * nome){
-    strcpy(comp->nome,nome);
-    printf(".");
-    return;
-}
-*/

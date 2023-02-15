@@ -23,7 +23,7 @@
     #include<unistd.h>
 #endif
 
-void print_desc_box(const char * testo, const int nchar){ //prints text
+void print_desc_box(const char * testo, const int nchar){ //prints text in a squared box
     int position_counter=0,i;
     while(position_counter+nchar<strlen(testo)){
         printf("\n|");
@@ -51,7 +51,7 @@ void print_desc_box(const char * testo, const int nchar){ //prints text
     return;
 }
 
-void print_invisible_box(const char * testo, const int nchar){ //prints text
+void print_invisible_box(const char * testo, const int nchar){ //prints text in an "invisible" box
     int position_counter=0,i;
     while(position_counter+nchar<strlen(testo)){
         printf("\n ");
@@ -79,7 +79,7 @@ void print_invisible_box(const char * testo, const int nchar){ //prints text
     return;
 }
 
-void print_dialogue_box(const char * testo, const int nchar){ //prints text
+void print_dialogue_box(const char * testo, const int nchar){ //prints text in a <<%s>> box
     int position_counter=0,i;
     while(position_counter+nchar<strlen(testo)){
         printf("\n<< ");
@@ -106,7 +106,7 @@ void print_dialogue_box(const char * testo, const int nchar){ //prints text
     }
     return;
 }
-void print_square_box(const char * testo, const int nchar){ //prints text
+void print_square_box(const char * testo, const int nchar){ //prints text in a [%s] box
     int position_counter=0,i;
     while(position_counter+nchar<strlen(testo)){
         printf("\n[ ");
@@ -134,14 +134,14 @@ void print_square_box(const char * testo, const int nchar){ //prints text
     return;
 }
 
-void printLine_noStar(int nchar){
+void printLine_noStar(int nchar){ //prints a line without * at the beginning and ending
     printf("\n ");
     for(;nchar>-2;nchar--) printf("-");
     printf(" ");
     return;
 }
 
-void print_intro(void){
+void print_intro(void){ //prints the intro
     printf("\n\n\n");
     printLine_noStar(100);
     print_square_box(VERSION,100);
@@ -155,7 +155,7 @@ void print_intro(void){
     printLine_noStar(100);
     return;
 }
-void print_debug(void){
+void print_debug(void){ //debug acknowledgement
     printLine_noStar(100);
     print_square_box(DEBUG_STRING,100);
     printLine_noStar(100);
@@ -163,7 +163,7 @@ void print_debug(void){
     return;
 }
 
-void print_star_box(const char * testo, const int nchar){ //prints text
+void print_star_box(const char * testo, const int nchar){ //prints text in a *%d* box
     int position_counter=0,i;
     while(position_counter+nchar<strlen(testo)){
         printf("\n* ");
@@ -190,38 +190,38 @@ void print_star_box(const char * testo, const int nchar){ //prints text
     }
     return;
 }
-void print_star_Line(int nchar){
+void print_star_Line(int nchar){ //prints a line composed of *
     printf("\n*");
     for(;nchar>0;nchar-=5) printf("  *  ");
     printf("*");
     return;
 }
-void print_dot_line(int nchar){
+void print_dot_line(int nchar){ //prints a line composed of .
     printf("\n.");
     for(;nchar>-2;nchar--) printf(".");
     printf(".");
     return;
 }
-void print_double_dot_line(int nchar){
+void print_double_dot_line(int nchar){ //prints a line composed of :
     printf("\n:");
     for(;nchar>-2;nchar--) printf(":");
     printf(":");
     return;
 }
-void printLine(int nchar){
+void printLine(int nchar){ //prints a line in the format *-...-*
     printf("\n*");
     for(;nchar>-2;nchar--) printf("-");
     printf("*");
     return;
 }
 
-void clean_fgets(char * stringa, int maxlenght,FILE * filename){
+void clean_fgets(char * stringa, int maxlenght,FILE * filename){//a wrapper for the fgets that cleans the result of the '\n' by replacing it with a '\0'
     fgets(stringa,maxlenght,filename);
     stringa[strlen(stringa)-1]='\0';
     return;
 }
 
-int oggetto_(char * subazione){
+int oggetto_(char * subazione){ //function to be applied when we need to decode an input that refers to an item
     int risultato;
     if(strstr(subazione,"spellbook")||strstr(subazione,"libro")||strstr(subazione,"0")) risultato= 0;
     else if(strstr(subazione,"pugnale")||strstr(subazione,"daga")) risultato= 1;
@@ -236,7 +236,7 @@ int oggetto_(char * subazione){
     return risultato;
 }
 
-int incantesimo_(char * subazione){
+int incantesimo_(char * subazione){//function to be applied when we need to decode an input that refers to a spell
     int risultato;
     if(strstr(subazione,"dardo")||strstr(subazione,"fuoco")||strstr(subazione,"0")) risultato=0;
     else if(strstr(subazione,"ice")||strstr(subazione,"knife")) risultato=1;
@@ -256,7 +256,7 @@ int incantesimo_(char * subazione){
     else risultato=-1;
     return risultato;
 }
-int spostamento_(char * dir){
+int spostamento_(char * dir){//function to be applied when we need to decode an input that refers to a move
     int risultato=-1;
     if(strstr(dir,"nord")||strstr(dir,"0")) risultato= 0;
     else if(strstr(dir,"sud")) risultato= 1;
@@ -266,7 +266,7 @@ int spostamento_(char * dir){
     return risultato;
 }
 
-int azione_ (char * action){
+int azione_ (char * action){//function to be applied when we need to decode an input that refers to an action
     int azione;
     if((strstr(action,"guarda"))||strstr(action,"osserva")||strstr(action,"look")||strstr(action,"indaga")||strstr(action,"descrivi")) azione=1;
     else if((strstr(action,"usa")&&!strstr(action,"incantesimo"))||strstr(action,"use")) azione=2;
@@ -287,12 +287,12 @@ int azione_ (char * action){
     return azione;
 }
 
-int scelta_(char * s){
+int scelta_(char * s){//function to be applied when we need to decode an input that refers to a binary choice
     int returnValue=0;
     if(strstr(s,"si")) returnValue=1;
     return returnValue;
 }
-int attack_(char * s){
+int attack_(char * s){//function to be applied when we need to decode an input that refers to an attack
     int returnValue;
     if(strstr(s,"dardo")||strstr(s,"fuoco")) returnValue= 0;
     else if (strstr(s,"evoca")||strstr(s,"demone")) returnValue=4;
@@ -307,7 +307,7 @@ int attack_(char * s){
     return returnValue;
 }
 
-int defense_(char * stringa){
+int defense_(char * stringa){//function to be applied when we need to decode an input that refers to a defense
     int returnValue=-1;
     if(strstr(stringa, "scudo")&&strstr(stringa,"incantesimo")) returnValue=2;
     else if(strstr(stringa,"scudo")&&strstr(stringa, "oggetto")) returnValue= 3;
@@ -317,7 +317,7 @@ int defense_(char * stringa){
     return returnValue;
 }
 
-int escape_(char * scelta){
+int escape_(char * scelta){//function to be applied when we need to decode an input that refers to an attempt to escape
     int returnValue=-1;
     if(atoi(scelta)) returnValue=atoi(scelta);
     else if (strstr(scelta, "luci")||strstr(scelta, "danzanti")) returnValue=0;
@@ -326,31 +326,31 @@ int escape_(char * scelta){
     return returnValue;
 }
 
-int decode (char * string, int (*mode)(char *)){
+int decode (char * string, int (*mode)(char *)){//applicatore per le funzioni di decodifica
     for(int i=0;i<strlen(string);i++) string[i]=tolower(string[i]);
     return (*mode)(string);
 }
-void ask(char * testo){
+void ask(char * testo){//function to print the prompt
     printf("\n$ ");
     printf("%s",testo);
     printf(" > ");
     return;
 }
-void print_credits(void){
+void print_credits(void){//this one prints the credits
     printLine_noStar(100);
     print_square_box(CREDITS1,100);
     print_square_box(CREDITS2,100);
     printLine_noStar(100);
     return;
 }
-void printSettings(sett* settings){
+void printSettings(sett* settings){//this one prints the settings
     printf("\n********** IMPOSTAZIONI **********");
     printSet("Audio           :",settings->audioOn);
     printSet("Incontri Casuali:",settings->randomEncounters);
-    //STILL TO COMPLETE
+    //STILL TO COMPLETE if the setting changes
     return;
 }
-void printSet(char* setting, short isOn){
+void printSet(char* setting, short isOn){//this one prints the single setting
     char stringa[100]="";
     strcat(stringa,"\n>>\t");
     strcat(stringa,setting);
@@ -360,7 +360,7 @@ void printSet(char* setting, short isOn){
     return;
 }
 
-void bell(int times, sett* settings){
+void bell(int times, sett* settings){//this function makes the terminal produce a BEL sound
     if(settings->audioOn){
         printf("\a");
         fflush(stdout);
@@ -377,7 +377,7 @@ void bell(int times, sett* settings){
     }
     return;
 }
-void change_settings(sett*settings){
+void change_settings(sett*settings){//this function is needed to change settings
     printSettings(settings);
     short exit=0;
     char stringa[100];
