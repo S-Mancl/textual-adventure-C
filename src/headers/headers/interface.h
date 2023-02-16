@@ -1,7 +1,7 @@
 #include<stdio.h>
-void print_desc_box(const char * testo, const int nchar);
-void print_invisible_box(const char * testo, const int nchar);
-void print_dialogue_box(const char * testo, const int nchar);
+void print_desc_box(const char * testo, int nchar);
+void print_invisible_box(const char * testo, int nchar);
+void print_dialogue_box(const char * testo, int nchar);
 void printLine(int nchar);
 void clean_fgets(char * stringa, int maxlenght,FILE * filename);
 int oggetto_(char * subazione);
@@ -15,10 +15,10 @@ int escape_(char * scelta);
 int decode (char * string, int (*mode)(char *));
 void ask(char * testo);
 void print_star_Line(int nchar);
-void print_star_box(const char * testo, const int nchar);
+void print_star_box(const char * testo, int nchar);
 void print_double_dot_line(int nchar);
 void print_dot_line(int nchar);
-void print_square_box(const char * testo, const int nchar);
+void print_square_box(const char * testo, int nchar);
 void printLine_noStar(int nchar);
 void print_intro(void);
 void print_debug(void);

@@ -164,7 +164,7 @@ void altStatus(posto * place, stato current_status, char * firedesc, char * iced
     printf(".");
     return;
 }
-void print_item_desc(const inv * invent, const int subaction){//this way a description of an item is printed
+void print_item_desc(const inv * invent, int subaction){//this way a description of an item is printed
     if(!(invent->oggetto[subaction].available)){
         print_star_Line(100);
         print_star_box(ECHILOSA,100);
@@ -177,7 +177,7 @@ void print_item_desc(const inv * invent, const int subaction){//this way a descr
     }
     return;
 }
-void print_spell_desc(const spbook * spb, const int subaction){//same as above, but with spells
+void print_spell_desc(const spbook * spb, int subaction){//same as above, but with spells
     if(!(spb->spell[subaction].known)){
         print_star_Line(100);
         print_star_box(ECHILOSA,100);
@@ -190,11 +190,11 @@ void print_spell_desc(const spbook * spb, const int subaction){//same as above, 
     }
     return;
 }
-void print_spell_name(const spbook * spb,const int subaction){//prints the name of a spell
+void print_spell_name(const spbook * spb, int subaction){//prints the name of a spell
     printf("\n> %d.%s",subaction,spb->spell[subaction].nome);
     return;
 }
-void print_item_name(const inv * invent,const int subaction){//prints the name of an item
+void print_item_name(const inv * invent, int subaction){//prints the name of an item
     printf("\n> %d.%s",subaction,invent->oggetto[subaction].nome);
     return;
 }

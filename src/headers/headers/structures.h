@@ -58,14 +58,14 @@ typedef struct
     posto place[NPLACE];
 }map;
 
-typedef struct{
+/*typedef struct{
     char nome[NMLENG];
     unsigned int quantita;
 }component;
 
 typedef struct{
     component ingredients[10];
-}component_pouch;
+}component_pouch;*/
 
 typedef struct{
     short audioOn;

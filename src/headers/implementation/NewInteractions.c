@@ -148,7 +148,7 @@ int suggestione(const personaggio NPC){
     return ((NPC.intelligenza+rolld(20))>15);
 }
 
-int try_esc(const personaggio NPC, const int scelta){
+int try_esc(const personaggio NPC, int scelta){
     int exitVar, (*p[3])(const personaggio)={luci,sonno,suggestione};
     exitVar=(*p[scelta])(NPC);
     return exitVar;
@@ -290,7 +290,7 @@ int lancia(const inv * inventario, const spbook * spb, const personaggio * NPC){
     return returnValue;
 }
 
-int attack_successful(const inv * inventario, const spbook * spb, personaggio * NPC,const int attack){
+int attack_successful(const inv * inventario, const spbook * spb, personaggio * NPC,int attack){
     int exitVar,(*p[9])(const inv*, const spbook*,const personaggio*)={dardo,ice,missile,infliggi,demone_evo,pugnale,ascia,martello,lancia};
     if(attack==-1){
         printf("\nL'azione da te selezionata non era valida");
@@ -380,7 +380,7 @@ int assorbi_elem(const inv * inventario, const spbook * spb, const personaggio *
     else print_invisible_box(spb->spell[6].fallimento,100);
     return returnValue;
 }
-int defense_successful(const inv * inventario, const spbook * spb, const personaggio * NPC,const int defense){
+int defense_successful(const inv * inventario, const spbook * spb, const personaggio * NPC, int defense){
     int exitVar,(*p[5])(const inv*, const spbook*,const personaggio*)={armatura_spell,assorbi_elem,scudo_spell,scudo_oggetto,armatura_oggetto};
     if(defense==-1){
         printf("\nL'azione da te selezionata non era valida");

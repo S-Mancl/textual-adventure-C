@@ -23,7 +23,7 @@
     #include<unistd.h>
 #endif
 
-void print_desc_box(const char * testo, const int nchar){ //prints text in a squared box
+void print_desc_box(const char * testo, int nchar){ //prints text in a squared box
     int position_counter=0,i;
     while(position_counter+nchar<strlen(testo)){
         printf("\n|");
@@ -34,7 +34,7 @@ void print_desc_box(const char * testo, const int nchar){ //prints text in a squ
         for(int j=i;j<nchar+1;j++) printf(" ");
         printf("|");
         position_counter+=i+1;
-    };
+    }
     if(position_counter<strlen(testo)){
         printf("\n|");
         i=0;
@@ -51,7 +51,7 @@ void print_desc_box(const char * testo, const int nchar){ //prints text in a squ
     return;
 }
 
-void print_invisible_box(const char * testo, const int nchar){ //prints text in an "invisible" box
+void print_invisible_box(const char * testo, int nchar){ //prints text in an "invisible" box
     int position_counter=0,i;
     while(position_counter+nchar<strlen(testo)){
         printf("\n ");
@@ -62,7 +62,7 @@ void print_invisible_box(const char * testo, const int nchar){ //prints text in 
         for(int j=i;j<nchar+1;j++) printf(" ");
         printf(" ");
         position_counter+=i+1;
-    };
+    }
     if(position_counter<strlen(testo)){
         printf("\n ");
         i=0;
@@ -79,7 +79,7 @@ void print_invisible_box(const char * testo, const int nchar){ //prints text in 
     return;
 }
 
-void print_dialogue_box(const char * testo, const int nchar){ //prints text in a <<%s>> box
+void print_dialogue_box(const char * testo, int nchar){ //prints text in a <<%s>> box
     int position_counter=0,i;
     while(position_counter+nchar<strlen(testo)){
         printf("\n<< ");
@@ -90,7 +90,7 @@ void print_dialogue_box(const char * testo, const int nchar){ //prints text in a
         for(int j=i;j<nchar+1;j++) printf(" ");
         printf(">>");
         position_counter+=i+1;
-    };
+    }
     if(position_counter<strlen(testo)){
         printf("\n<< ");
         i=0;
@@ -106,7 +106,7 @@ void print_dialogue_box(const char * testo, const int nchar){ //prints text in a
     }
     return;
 }
-void print_square_box(const char * testo, const int nchar){ //prints text in a [%s] box
+void print_square_box(const char * testo, int nchar){ //prints text in a [%s] box
     int position_counter=0,i;
     while(position_counter+nchar<strlen(testo)){
         printf("\n[ ");
@@ -117,7 +117,7 @@ void print_square_box(const char * testo, const int nchar){ //prints text in a [
         for(int j=i;j<nchar+1;j++) printf(" ");
         printf("]");
         position_counter+=i+1;
-    };
+    }
     if(position_counter<strlen(testo)){
         printf("\n[ ");
         i=0;
@@ -163,7 +163,7 @@ void print_debug(void){ //debug acknowledgement
     return;
 }
 
-void print_star_box(const char * testo, const int nchar){ //prints text in a *%d* box
+void print_star_box(const char * testo, int nchar){ //prints text in a *%d* box
     int position_counter=0,i;
     while(position_counter+nchar<strlen(testo)){
         printf("\n* ");
@@ -174,7 +174,7 @@ void print_star_box(const char * testo, const int nchar){ //prints text in a *%d
         for(int j=i;j<nchar+1;j++) printf(" ");
         printf("*");
         position_counter+=i+1;
-    };
+    }
     if(position_counter<strlen(testo)){
         printf("\n* ");
         i=0;

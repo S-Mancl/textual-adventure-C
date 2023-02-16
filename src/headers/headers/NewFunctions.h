@@ -1,8 +1,8 @@
 
 int rolld(int a);
-int get_gold_pieces(const int portafogli);
-int get_silver_pieces(const int portafogli);
-int get_copper_pieces(const int portafogli);
+int get_gold_pieces(int portafogli);
+int get_silver_pieces( int portafogli);
+int get_copper_pieces( int portafogli);
 void print_map( const map * mappa);
 int save_to_file(const map * mappa, const inv * invent, const spbook * spb, const int *current, const int *previous,const int *portafogli);
 void clean (char * filename);
@@ -12,10 +12,10 @@ void learn(spel * spell, char * nome, char * descrizione, char * effetto, elemen
 void load(item * oggetto, char * nome, char * descrizione, char * uso, char * fallimento);
 void createPlace(posto * place, char * nome, char * descrizione, int N, int S, int E, int O, char* desc0, char * desc1, char * desc2, char * desc3, char*move0,char *move1, char*move2, char*move3, int objavail, int objcode);
 void altStatus(posto * place, stato current_status, char * firedesc, char * icedesc, char * devdesc,char * availableObjDescr, int spellAvailable, int codeSpell,int money,int regen);
-void print_item_desc(const inv * invent, const int subaction);
-void print_spell_desc(const spbook * spb, const int subaction);
-void print_spell_name(const spbook * spb,const int subaction);
-void print_item_name(const inv * invent,const int subaction);
+void print_item_desc(const inv * invent,  int subaction);
+void print_spell_desc(const spbook * spb,  int subaction);
+void print_spell_name(const spbook * spb, int subaction);
+void print_item_name(const inv * invent, int subaction);
 void print_inventory(const inv * invent);
 void print_spellbook(const spbook * spb);
 void print_possibleMoves(const posto * loc);

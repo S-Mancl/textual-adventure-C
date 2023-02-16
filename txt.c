@@ -1,7 +1,6 @@
 /*
     Program written by: Samuele Manclossi
     Special thanks to everyone
-    Reminder: carica su github
 */
 /*Inclusion of useful headers*/
 #include<stdio.h>
@@ -17,14 +16,6 @@
 #include "src/headers/headers/NewInteractions.h" //header with basic interactions
 #include "src/headers/headers/interface.h" //improving the aspect
 
-/*#if defined(__linux__) || defined(__linux) || defined(linux) || defined(__gnu_linux__)
-    #define LINUX
-#elif defined(__APPLE__) && defined(__MACH__)
-    #define MACOS
-#elif defined(_WIN32) || defined(_WIN64)
-    #define WINDOWS
-#endif*/
-
 int main(int argc, char * argv[]){
     /*Declaration of variables*/
     int action, subaction, current_location=0, previous_location=-1,i,prevStatus=0,died=0,portafogli=0, we_re_playing=1;
@@ -39,7 +30,7 @@ int main(int argc, char * argv[]){
     setup(&mappa,&bestiario,&inventario,&spellbook); //in this part of the code the program loads up literally anything from the files, more specifically: * the map * the items * the spells * the bestiary
     print_intro();/*game explanation*/
     if(argc>=2 && !strcmp(argv[1],"debug")){ //if the debug mode is requested
-        spellbook.spell[14].known=1; //the character earns teleport
+        spellbook.spell[14].known=1; //the character gains teleport
         inventario.oggetto[7].available=1; //and a map
         printf("\n\n");
         print_debug(); //debug acknowledgement
