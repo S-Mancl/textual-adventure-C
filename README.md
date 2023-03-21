@@ -13,5 +13,12 @@ Does this feature even need more text to explain it? Random encounters can be de
 There are NPCs, with different alignments, and different interactions based on the alignments
 ## Session achievements
 You can win achievements (specific to the session, not to the entire game) by performing determined actions, or the same actions multiple times.
+## Compiling
+During the compilation, we are using the [nobuild™](https://www.github.com/tsoding/nobuild) technology.
+Tu compile you will just need to compile and run the ```nobuild.c``` file.
+```shell
+$ gcc -o nobuild ./nobuild.c
+$ ./nobuild
+```
 ### And probably a lot more I can't remember at the moment :-)  
 [Read my file description for a (WIP, but will be a) complete list of the files in this repo](https://github.com/S-Mancl/textual-adventure-C/blob/main/FILES.md)
