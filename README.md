@@ -20,5 +20,13 @@ Tu compile you will just need to compile and run the ```nobuild.c``` file.
 $ gcc -o nobuild ./nobuild.c
 $ ./nobuild
 ```
+If you want to compile it and run it, you should execute the following program (after having compile the ```nobuild.c``` file):
+```shell
+$ ./nobuild run
+```
+If you want to run the program in debug mode, you should run the following program:
+```shell
+$ ./nobuild debug
+```
 ### And probably a lot more I can't remember at the moment :-)  
 [Read my file description for a (WIP, but will be a) complete list of the files in this repo](https://github.com/S-Mancl/textual-adventure-C/blob/main/FILES.md)
