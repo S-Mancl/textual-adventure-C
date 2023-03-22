@@ -3,9 +3,8 @@
 1. FILES.md: is the current file
 2. README.md: a brief description of the project
 3. Windows.bat: a bat file for compiling and execute (in debug mode) on Windows
-4. makefile: does this really need description?
-5. runDebug: a shellscript that runs make and then executes (in debug mode) the executable
-6. txt.c: the C file containing main and almost nothing more
+4. nobuild.c: The file that will let you build and compile the entire project
+5. txt.c: the C file containing main and almost nothing more
 * ./src/headers/headers/\*.h are the headers needed for the program to work properly
 1. interface.h contains the CLI prototypes
 2. NewFunctions.h contains the basic textual adventure prototypes
