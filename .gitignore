@@ -1,4 +1,4 @@
 nobuild
 nobuild.old
-exec_this
+exec_this*
 src/txts/savefiles/carlo.txt

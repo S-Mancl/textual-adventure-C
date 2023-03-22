@@ -6,15 +6,26 @@
 #define FILES "./txt.c", "./src/headers/implementation/NewFunctions.c", "./src/headers/implementation/NewInteractions.c", "./src/headers/implementation/interface.c"
 
 void compile(void){
-    RM("exec_this");;
-    CMD("gcc", "-o", "exec_this", LIBS, FILES);
-    INFO("Ora esegui exec_this - eventualmente con flag debug");
+    #ifdef WIN32
+        RM("exec_this.exe");
+        CMD("gcc", "-o", "exec_this.exe", LIBS, FILES);
+        INFO("Ora esegui exec_this.exe - eventualmente con flag debug");
+    #else
+        RM("exec_this");
+        CMD("gcc", "-o", "exec_this", LIBS, FILES);
+        INFO("Ora esegui exec_this - eventualmente con flag debug");
+    #endif
 }
 
 void debug(void){
     compile();
-    CMD("./exec_this","debug");
-    RM("exec_this");
+    #ifdef WIN32
+        CMD("exec_this.exe","debug");
+        RM("exec_this.exe");
+    #else
+        CMD("./exec_this","debug");
+        RM("exec_this");
+    #endif
 }
 
 int main(int argc, char **argv){
@@ -23,11 +34,19 @@ int main(int argc, char **argv){
     const char *program = shift_args(&argc, &argv);
     if (argc>0) {
         const char *subcmd = shift_args(&argc, &argv);
-        if (strcmp(subcmd, "run")==0) {
+        #ifdef WIN32
+            if (strcmp(subcmd, "run")==0) {
+                CMD("exec_this.exe");
+            } else if (strcmp(subcmd, "debug")==0) {
+                debug();
+            }
+        #else
+            if (strcmp(subcmd, "run")==0) {
             CMD("./exec_this");
-        } else if (strcmp(subcmd, "debug")==0) {
-            debug();
-        }
+            } else if (strcmp(subcmd, "debug")==0) {
+                debug();
+            }
+        #endif
     } else {
         compile();
     }
