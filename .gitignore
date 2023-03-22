@@ -1,4 +1,6 @@
 nobuild
 nobuild.old
+nobuild.exe
+nobuild.exe.old
 exec_this*
 src/txts/savefiles/carlo.txt
