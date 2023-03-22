@@ -11,6 +11,7 @@
 3. NewInteractions.h contains the prototypes for interactions with other characters
 4. data.h are constants
 5. structures.h and characters.h contain the main structures used in the project
+6. nobuild.h is the file that let us build the entire project
 * ./src/headers/implementation/\*.c contains the implementations of the headers above
 * ./src/txts/data contains the files with all the data needed to run the adventure
 1. data.txt contains the settings, encounters, items and spells
